@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+body {
+     background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+    padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.main-color {
+	background-color: #00FF94 !important;
+	    margin-bottom: 30px;
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    height: 230px;
+}
+
+.card-body {
+	padding: 20px 30px;
+	text-align: left;
+	color: #6E30E3;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+}
+.card-body img {
+    display: block;
+    width: 100%;
+    max-width: 54px;
+    padding: 5px 0;
+}
+
+.main-font {
+	font-family: "Modak", sans-serif;
+
+}
+.main-font h3{
+	color: #F3FE8D !important;
+	text-shadow: -7px 0 #FF0F93, 0 7px #FF0F93, 7px 0 #FF0F93, 0 -7px #FF0F93;
+	position: absolute;
+    z-index: 99999;
+	top: 5px;
+    left: 45px;
+        font-size: 200px !important;
+}
+
+.main-font h4{
+	color: #6E30E3 !important;
+	text-shadow: -7px 0 #FF0F93, 0 7px #FF0F93, 7px 0 #FF0F93, 0 -7px #FF0F93;
+	position: relative;
+	    font-size: 200px !important;
+	
+}
+
+
+.btn-link:hover, .btn-link.focus, .btn-link:focus {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.btn-link:hover h3{
+    color: #0056b3;
+    text-decoration: none;
+	text-shadow: -7px 0 #6E30E3, 0 7px #6E30E3, 7px 0 #6E30E3, 0 -7px #6E30E3;
+
+}
+
+.btn-link:hover h4{
+    text-decoration: none;
+    color: #00FE94 !important;
+	text-shadow: -7px 0 #6E30E3, 0 7px #6E30E3, 7px 0 #6E30E3, 0 -7px #6E30E3;
+}
+
+#headingTwo {
+    height: 130px;
+}
+
+#headingTwo .main-font h3 {
+	font-size: 100px !important;
+	text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
+	top: 11px;
+    left: 41px;
+}
+
+#headingTwo .main-font h4 {
+	font-size: 100px !important;
+	text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
+}
+
+#headingTwo .btn-link:hover h3{
+    color: #0056b3;
+    text-decoration: none;
+	text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
+
+}
+
+#headingTwo .btn-link:hover h4{
+    text-decoration: none;
+    color: #00FE94 !important;
+	text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
+}
+
+#headingThree {
+    height: 180px;
+}
+
+#headingThree .main-font h3 {
+	font-size: 150px !important;
+	text-shadow: -5px 0 #FF0F93, 0 5px #FF0F93, 5px 0 #FF0F93, 0 -5px #FF0F93;
+	top: 11px;
+    left: 41px;
+}
+
+#headingThree .main-font h4 {
+	font-size: 150px !important;
+	text-shadow: -5px 0 #FF0F93, 0 5px #FF0F93, 5px 0 #FF0F93, 0 -5px #FF0F93;
+}
+
+#headingThree .btn-link:hover h3{
+    color: #0056b3;
+    text-decoration: none;
+	text-shadow: -5px 0 #6E30E3, 0 5px #6E30E3, 5px 0 #6E30E3, 0 -5px #6E30E3;
+
+}
+
+#headingThree .btn-link:hover h4{
+    text-decoration: none;
+    color: #00FE94 !important;
+	text-shadow: -5px 0 #6E30E3, 0 5px #6E30E3, 5px 0 #6E30E3, 0 -5px #6E30E3;
+}
+
