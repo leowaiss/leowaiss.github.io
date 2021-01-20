@@ -27,13 +27,13 @@ body {
 	padding: 20px 30px;
 	text-align: left;
 	color: #6E30E3;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: "Roboto", sans-serif;
 }
 .card-body img {
     display: block;
     width: 100%;
-    max-width: 54px;
+    max-width: 34px;
     padding: 5px 0;
 }
 
@@ -59,6 +59,11 @@ body {
 	
 }
 
+.extra-padding {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .btn-link:hover, .btn-link.focus, .btn-link:focus {
     color: #0056b3;
@@ -134,5 +139,35 @@ body {
     text-decoration: none;
     color: #00FE94 !important;
 	text-shadow: -5px 0 #6E30E3, 0 5px #6E30E3, 5px 0 #6E30E3, 0 -5px #6E30E3;
+}
+
+
+#headingFour {
+    height: 120px;
+}
+
+#headingFour .main-font h3 {
+    font-size: 80px !important;
+    text-shadow: -3px 0 #FF0F93, 0 3px #FF0F93, 3px 0 #FF0F93, 0 -3px #FF0F93;
+    top: 11px;
+    left: 41px;
+}
+
+#headingFour .main-font h4 {
+    font-size: 80px !important;
+    text-shadow: -3px 0 #FF0F93, 0 3px #FF0F93, 3px 0 #FF0F93, 0 -3px #FF0F93;
+}
+
+#headingFour .btn-link:hover h3{
+    color: #0056b3;
+    text-decoration: none;
+    text-shadow: -3px 0 #6E30E3, 0 3px #6E30E3, 3px 0 #6E30E3, 0 -3px #6E30E3;
+
+}
+
+#headingFour .btn-link:hover h4{
+    text-decoration: none;
+    color: #00FE94 !important;
+    text-shadow: -3px 0 #6E30E3, 0 3px #6E30E3, 3px 0 #6E30E3, 0 -3px #6E30E3;
 }
 
