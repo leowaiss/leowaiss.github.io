@@ -30,10 +30,26 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 .card-body img {
+
+    width: 100%;
+    max-width: 100%;
+}
+
+.card-body .star {
     display: block;
     width: 100%;
     max-width: 34px;
     padding: 5px 0;
+}
+
+
+.gif1 {
+    width: 56.5% !important;
+}
+
+.gif2 {
+    margin-right: 30px !important;
+    width: 37.5% !important;
 }
 
 ._w_65{
