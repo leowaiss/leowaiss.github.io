@@ -36,13 +36,21 @@ body {
     padding: 5px 0;
 }
 
+._w_65{
+    width: 65% !important;
+}
+
+._w_8 {
+    width: 80% !important;
+}
+
 .main-font {
 	font-family: "Modak", sans-serif;
 
 }
 .main-font h3{
 	color: #F3FE8D !important;
-	text-shadow: -7px 0 #FF0F93, 0 7px #FF0F93, 7px 0 #FF0F93, 0 -7px #FF0F93;
+	text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
 	position: absolute;
     z-index: 99999;
 	top: 5px;
@@ -52,7 +60,7 @@ body {
 
 .main-font h4{
 	color: #6E30E3 !important;
-	text-shadow: -7px 0 #FF0F93, 0 7px #FF0F93, 7px 0 #FF0F93, 0 -7px #FF0F93;
+	text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
 	position: relative;
 	    font-size: 200px !important;
 	
@@ -64,6 +72,11 @@ body {
     padding-bottom: 30px;
 }
 
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0);
+}
+
 .btn-link:hover, .btn-link.focus, .btn-link:focus {
     color: #0056b3;
     text-decoration: none;
@@ -72,14 +85,14 @@ body {
 .btn-link:hover h3{
     color: #0056b3;
     text-decoration: none;
-	text-shadow: -7px 0 #6E30E3, 0 7px #6E30E3, 7px 0 #6E30E3, 0 -7px #6E30E3;
+	text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
 
 }
 
 .btn-link:hover h4{
     text-decoration: none;
     color: #00FE94 !important;
-	text-shadow: -7px 0 #6E30E3, 0 7px #6E30E3, 7px 0 #6E30E3, 0 -7px #6E30E3;
+	text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
 }
 
 #headingTwo {
@@ -89,8 +102,8 @@ body {
 #headingTwo .main-font h3 {
 	font-size: 100px !important;
 	text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
-	top: 11px;
-    left: 41px;
+	top: 10px;
+    left: 40px;
 }
 
 #headingTwo .main-font h4 {
@@ -118,8 +131,8 @@ body {
 #headingThree .main-font h3 {
 	font-size: 150px !important;
 	text-shadow: -5px 0 #FF0F93, 0 5px #FF0F93, 5px 0 #FF0F93, 0 -5px #FF0F93;
-	top: 11px;
-    left: 41px;
+	top: 10px;
+    left: 40px;
 }
 
 #headingThree .main-font h4 {
@@ -147,26 +160,26 @@ body {
 
 #headingFour .main-font h3 {
     font-size: 80px !important;
-    text-shadow: -3px 0 #FF0F93, 0 3px #FF0F93, 3px 0 #FF0F93, 0 -3px #FF0F93;
-    top: 11px;
-    left: 41px;
+    text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
+    top: 10px;
+    left: 40px;
 }
 
 #headingFour .main-font h4 {
     font-size: 80px !important;
-    text-shadow: -3px 0 #FF0F93, 0 3px #FF0F93, 3px 0 #FF0F93, 0 -3px #FF0F93;
+    text-shadow: -4px 0 #FF0F93, 0 4px #FF0F93, 4px 0 #FF0F93, 0 -4px #FF0F93;
 }
 
 #headingFour .btn-link:hover h3{
     color: #0056b3;
     text-decoration: none;
-    text-shadow: -3px 0 #6E30E3, 0 3px #6E30E3, 3px 0 #6E30E3, 0 -3px #6E30E3;
+    text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
 
 }
 
 #headingFour .btn-link:hover h4{
     text-decoration: none;
     color: #00FE94 !important;
-    text-shadow: -3px 0 #6E30E3, 0 3px #6E30E3, 3px 0 #6E30E3, 0 -3px #6E30E3;
+    text-shadow: -4px 0 #6E30E3, 0 4px #6E30E3, 4px 0 #6E30E3, 0 -4px #6E30E3;
 }
 
